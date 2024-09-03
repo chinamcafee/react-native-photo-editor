@@ -13,6 +13,16 @@ export function hello(): string {
   return ReactNativePhotoEditorModule.hello();
 }
 
+export async function openEditor(path:string) {
+  console.log("openEditor native started =====================")
+  return await ReactNativePhotoEditorModule.openEditor(path);
+}
+
+export async function openPicker(path:string) {
+  console.log("open native picker started =====================")
+  return await ReactNativePhotoEditorModule.openPicker();
+}
+
 export async function setValueAsync(value: string) {
   return await ReactNativePhotoEditorModule.setValueAsync(value);
 }
