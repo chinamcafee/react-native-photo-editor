@@ -1,6 +1,6 @@
 {
-  "name": "react-native-photo-editor",
-  "version": "0.1.0",
+  "name": "react-native-picture-editor",
+  "version": "0.2.0",
   "description": "An React Native Photo Editor like Wechat",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -18,12 +18,12 @@
   "keywords": [
     "react-native",
     "expo",
-    "react-native-photo-editor",
+    "react-native-picture-editor",
     "ReactNativePhotoEditor"
   ],
-  "repository": "https://github.com/chinamcafee/react-native-photo-editor",
+  "repository": "https://github.com/chinamcafee/react-native-picture-editor",
   "bugs": {
-    "url": "https://github.com/chinamcafee/react-native-photo-editor/issues"
+    "url": "https://github.com/chinamcafee/react-native-picture-editor/issues"
   },
   "author": "常泽川 <66781781@qq.com> (https://github.com/chinamcafee)",
   "license": "MIT",
@@ -31,8 +31,8 @@
   "dependencies": {},
   "devDependencies": {
     "@types/react": "^18.0.25",
-    "expo-module-scripts": "^3.5.2",
-    "expo-modules-core": "^1.12.20"
+    "expo-module-scripts": "4.0.2",
+    "expo-modules-core": "2.0.2"
   },
   "peerDependencies": {
     "expo": "*",
